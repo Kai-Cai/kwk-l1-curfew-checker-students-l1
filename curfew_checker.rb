@@ -3,10 +3,10 @@ if 4 < 5
 end
 
 
-if time.now.hour >= 11pm
+if time.hour.now >= 11pm
   puts "TIME TO GO"
 else 
   puts "Its ok, you're still under curfew"
 end    
     
-time.now.hour
+time.hour.now
