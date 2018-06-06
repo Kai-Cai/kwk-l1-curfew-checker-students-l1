@@ -2,6 +2,8 @@ def simple_curfew_checker(time)
   if time == 11 
     puts "You're in trouble! Better get home quick!"
   end
+  
+  simple_curfew_checker
   #   elsif
   #   puts
   # else
@@ -35,5 +37,3 @@ if time.hour.now >= 11pm
 else 
   puts "Its ok, you're still under curfew"
 end    
-    
-time.hour.now
