@@ -9,3 +9,4 @@ else
   puts "Its ok, you're still under curfew"
 end    
     
+time.now.hour
